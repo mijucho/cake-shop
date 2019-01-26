@@ -1,18 +1,19 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 
-const userRoutes = require('./routes/users')
+const cakesRoutes = require('./routes/cakes')
 
 const server = express()
 
 // Middleware
 
-server.engine('hbs', hbs({extname: 'hbs'}))
+server.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'main'}))
+server.use(express.static('public'))
 server.set('view engine', 'hbs')
 server.use(express.urlencoded({extended: true}))
 
 // Routes
 
-server.use('/', userRoutes)
+server.use('/', cakesRoutes)
 
 module.exports = server
