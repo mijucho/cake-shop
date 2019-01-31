@@ -7,7 +7,7 @@
 
 
 ## User Stories (Users)
-1 Users can see my home page and action button
+1. Users can see my home page and action button
 2. Users should be able to see cakes and cake page
 3. Users should be able to order and submit the form
 4. Admin can upgrade DB
