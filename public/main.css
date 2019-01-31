@@ -3,5 +3,78 @@
     width: 100%; 
     display:block;
     float: left;
+    margin-bottom: 30px;
 }
 
+#cakes-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+#cakes-container img { 
+    max-width: 400px;
+    max-height:400px;
+    height:auto;
+    width: auto; 
+    margin: 10px;
+    background-color: #aaa;
+}
+
+#cake-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ #cake-container img { 
+    max-width: 600px;
+    max-height:600px;
+    height:auto;
+    width: auto; 
+    margin: 10px;
+    background-color: #aaa;
+}
+
+.cakesbox:hober {
+    background-color: rgba(240, 233, 233, 0.7);
+}
+.cakes-container img:hover {
+    background-color: rgba(240, 233, 233, 0.7);
+  }
+ 
+
+
+
+
+
+
+/* .cakes-container{
+    display: grid;
+    grid-template: '. Januray February March .' 80px
+                   '. April May Jun .' 80px
+                   / 10px 1fr 1fr 1fr 10px;
+} 
+.cakes {
+    width: 400px;
+    height: 400px;
+}
+
+.Januray{
+    grid-area: Januray;
+}
+.February{
+    grid-area:February;  
+}
+.March{
+    grid-area:March;  
+}
+.April{
+    grid-area: April; 
+}
+.May{
+    grid-area: May; 
+}
+.Jun{
+    grid-area: Jun; 
+} */
