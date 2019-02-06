@@ -20,7 +20,6 @@ const router = express.Router()
      var id = req.params.id
      return db.displayCake(id)
      .then ((result) => {
-      console.log(result)
        res.render('cake', result[0])
      })
    })

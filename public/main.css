@@ -43,38 +43,3 @@
     background-color: rgba(240, 233, 233, 0.7);
   }
  
-
-
-
-
-
-
-/* .cakes-container{
-    display: grid;
-    grid-template: '. Januray February March .' 80px
-                   '. April May Jun .' 80px
-                   / 10px 1fr 1fr 1fr 10px;
-} 
-.cakes {
-    width: 400px;
-    height: 400px;
-}
-
-.Januray{
-    grid-area: Januray;
-}
-.February{
-    grid-area:February;  
-}
-.March{
-    grid-area:March;  
-}
-.April{
-    grid-area: April; 
-}
-.May{
-    grid-area: May; 
-}
-.Jun{
-    grid-area: Jun; 
-} */
