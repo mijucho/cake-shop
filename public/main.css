@@ -36,6 +36,7 @@
     background-color: #aaa;
 }
 
+
 .cakesbox:hober {
     background-color: rgba(240, 233, 233, 0.7);
 }
@@ -43,3 +44,17 @@
     background-color: rgba(240, 233, 233, 0.7);
   }
  
+#homebtn {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* background-color: #555; */
+  color: rgb(45, 54, 58);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
