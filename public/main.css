@@ -21,22 +21,6 @@
     background-color: #aaa;
 }
 
-#cake-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- }
-
- #cake-container img { 
-    max-width: 600px;
-    max-height:600px;
-    height:auto;
-    width: auto; 
-    margin: 10px;
-    background-color: #aaa;
-}
-
-
 .cakesbox:hober {
     background-color: rgba(240, 233, 233, 0.7);
 }
@@ -57,4 +41,25 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+
+.media-img {
+    max-width: 500px;
+    max-height:500px;
+    height:auto;
+    width: auto; 
+    margin: 50px;
+    background-color: #aaa;
+}
+
+.media-body {
+    margin: 50px;
+
 }
