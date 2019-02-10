@@ -5,9 +5,9 @@ const router = express.Router()
     router.get('/', (req, res) => {
      res.render('home')
       })
-    // .catch(err => {
-    //   res.status(500).send('error!')
-    // })
+    .catch(err => {
+      res.status(500).send('error!')
+    })
 
     router.get('/cakes', (req, res) => {
       return db.displayCakes()
