@@ -1,9 +1,18 @@
-<div id='cake-container'>
 
-    <div class='cakebox'>
-       <img class ='cake' src='/images/{{img_url}}'></a>
-        <h4>{{name}}</h4>
-    </div>
+<div class="media">
+  <img class=media-img src="/images/{{img_url}}" class="align-self-start mr-3" alt="...">
+  <div class="media-body">
+    <h4 class="mt-0">{{name}}</h4>
+       <h5>{{description}}</h5> 
 
+<form method='post' action='/cake/{{id}}'>
+  Cake Name:<br>
+  <input type="text" name="name">
+  <br>
+  
+   <button type="submit" class="button">Edit</button>
+
+</form>
+        {{!-- <a class="btn btn-outline-dark"  href="a href="/cake/{{id}}" role="button">Order Now</a> --}}
+  </div>
 </div>
-

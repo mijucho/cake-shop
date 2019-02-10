@@ -24,4 +24,17 @@ const router = express.Router()
      })
    })
 
+   router.post('/cake/:id', (req,res) => {
+     var id = req.params.id
+     var cakeName = {
+       name:req.body.name,
+     }
+  //  console.log(userData)
+      return db.editName(id, cakeName)
+      .then ((result) => {
+        res.render('cake', result[0])
+      })
+
+   })
+
 module.exports = router

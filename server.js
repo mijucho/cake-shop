@@ -16,4 +16,6 @@ server.use(express.urlencoded({extended: true}))
 
 server.use('/', cakesRoutes)
 
+server.post('/', cakesRoutes)
+
 module.exports = server
