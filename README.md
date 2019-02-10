@@ -14,14 +14,14 @@
 
 ## Todos
 - [x] Write the ReadMe
-- [ ] creat cake-shop page with express
-- [ ] make db for shop and users
-- [ ] edit, delete the DB
-- [ ] Have a fun!!
+- [x] creat cake-shop page with express
+- [x] make db for shop and users
+- [x] edit DB
+- [x] Have a fun!!
  
 
 ## Reflections & Learnings
 - To come...
 
 ## Next Action Steps
-* RECREAT with REACT!!
+* RECREATE with REACT!!
