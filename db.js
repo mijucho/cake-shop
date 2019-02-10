@@ -5,7 +5,9 @@ const connection = require('knex')(config)
 
  module.exports = {
   displayCakes,
-  displayCake
+  displayCake,
+  // addBuyers,
+  editName
  }
 
 function displayCakes (db = connection) {
@@ -17,3 +19,14 @@ function displayCakes (db = connection) {
   .where('id', id)
   .select()
 }
+
+// // function addBuyers (cakeName, db = connection) {
+//   return db('shop')
+//   .where('id', id)
+//   .insert(cakeName)
+// }
+ function editName(id, key, db = connection) {
+   return db('shop')
+   .where('id', id)
+   .update('name', key.name)
+ }

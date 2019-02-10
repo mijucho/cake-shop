@@ -1,3 +1,13 @@
+<div id='cake-container'>
+ {{#each cake}}
+    <div class='cakebox'>     
+      <a href="/cake/{{id}}"><img class ='cake' src='/images/{{img_url}}'/></a>
+       <h4>{{name}}</h4>
+    </div>
+ {{/each}}
+</div>
+
+
 <form>
    <div class="form-row">
      <div class="col">
@@ -13,7 +23,7 @@
     </div>
      <div class="form-group row">
        <div class="col-sm-10">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" class="btn btn-primary">Order</button>
        </div>
     </div>
   </div>
